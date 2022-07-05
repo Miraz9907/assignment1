@@ -1,0 +1,93 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   
+}
+.top-banner{
+    height: 550px;
+    background-image: url("image/donation13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    padding: 10px 25%;
+}
+
+h1{
+    font-size: 50px;
+}
+.paragraph{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+   
+}
+ 
+.donate-today{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.donate-today p{
+    padding: 2px 25%;
+}
+
+.donate-amount{
+    display: flex;
+    color: gray;
+}
+.amount100{
+    background-color: rgb(247, 243, 243);
+    padding: 40px 24px;
+    margin: 5px;
+   
+}
+.amount200{
+    background-color: rgb(247, 243, 243);
+    padding: 40px 24px;
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 5px ;
+   
+}
+.amount500{
+    background-color: rgb(247, 243, 243);
+    padding: 40px 24px;
+    margin: 5px;
+   
+}
+.amount1000{
+    background-color: rgb(247, 243, 243);
+    padding: 40px 20px;
+    margin: 5px;
+   
+}
+.amount5000{
+    background-color: rgb(247, 243, 243);
+    padding: 40px 20px;
+    margin: 5px;
+   
+}
+h5{
+    border-radius: 2px solid black;
+}
+hr{
+    padding: 0;
+    margin: 0;
+    width: 600px;
+
+}
