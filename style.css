@@ -21,6 +21,7 @@ body{
 
 h1{
     font-size: 50px;
+    text-align: center;
 }
 .paragraph{
     font-size: 20px;
@@ -86,8 +87,113 @@ h5{
     border-radius: 2px solid black;
 }
 hr{
-    padding: 0;
     margin: 0;
     width: 600px;
 
+}
+.para{
+    text-align: center;
+    padding: 2px 25%;
+}
+.donate-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.food{
+    width: 25%;
+    background-color: beige;
+    margin: 10px;
+    padding: 10px;
+}
+
+.shelter{
+    width: 25%;
+    background-color: beige;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.education{
+    width: 25%;
+    background-color: beige;
+    margin: 10px;
+    padding: 10px;
+}
+.donate-icon{
+    height: 50px;
+    width: 50px;
+}
+.donation{
+    display: flex;
+    margin-bottom: 100px;
+    padding: 50px;
+   
+}
+.donation2{
+    display: flex;
+    margin-bottom: 100px;
+    padding: 40px;
+   
+}
+.half-width{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+.half-width img{
+    width: 80%;
+    height: 400px;
+}
+.half-width p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding: 40px;
+}
+.half-width a{
+   margin-left: 40px;
+}
+.set-update{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+form{
+    padding: 50px 120px;
+    background-color: rgb(252, 233, 210);
+}
+.email{
+    color: rgb(129, 129, 129);
+    margin-right: 0px;
+    padding: 10px;
+    border: 1px solid rgb(129, 129, 129);
+    background-color: rgb(215, 214, 214);
+}
+.subscribe{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 10px;
+    margin-left: -5px;
+    border: 1px solid tomato;
+    border-radius:2px;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+}
+footer h1{
+    color: brown;
+
+}
+footer h5{
+    color: white;
+    margin-bottom: -20px;
 }
