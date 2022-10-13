@@ -85,12 +85,15 @@ h1{
 }
 h5{
     border-radius: 2px solid black;
+    margin-bottom: 2px;
+    color: rgb(97, 97, 97);
 }
 hr{
     margin: 0;
     width: 600px;
 
 }
+
 .para{
     text-align: center;
     padding: 2px 25%;
@@ -104,14 +107,14 @@ hr{
 
 .food{
     width: 25%;
-    background-color: beige;
+    background-color: rgb(198, 255, 245);
     margin: 10px;
     padding: 10px;
 }
 
 .shelter{
     width: 25%;
-    background-color: beige;
+    background-color: rgb(238, 238, 231);
     margin: 10px;
     padding: 10px;
 }
@@ -127,6 +130,44 @@ hr{
     height: 50px;
     width: 50px;
 }
+.heros-area{
+    margin-bottom: 100px;
+    background-color: rgb(237, 234, 230);
+    padding: 10px 2px;
+}
+.real-heros{
+    display: flex;
+    margin: 20px;
+  
+}
+.heros{
+    width: 23%;
+    margin: 10px;
+    box-shadow: 5px 10px 30px gray;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+
+}
+.heros p{
+    padding: 2px 10px;
+}
+
+.heros h2{
+    text-align: center;
+}
+.heros-para{
+    text-align: center;
+    padding: 2px 25%;
+}
+.heros-img{
+    height: 100px;
+    width: 200px;
+    margin:20px 30px 10px 40px;
+}
+
+
+
 .donation{
     display: flex;
     margin-bottom: 100px;
@@ -135,7 +176,7 @@ hr{
 }
 .donation2{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     padding: 40px;
    
 }
@@ -162,6 +203,9 @@ hr{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+}
+.set-update h1{
+    margin-bottom: 10px;
 }
 form{
     padding: 50px 120px;
@@ -191,9 +235,13 @@ footer{
 }
 footer h1{
     color: brown;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+    padding-top: 20px;
 
 }
 footer h5{
     color: white;
-    margin-bottom: -20px;
+    padding-bottom: 30px;
+    margin-top: 0;
 }
